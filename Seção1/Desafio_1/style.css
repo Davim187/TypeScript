@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+  background-color: #ffaa3c;
+  padding: 20px;
+  text-align: center;
+}
+#main {
+  height: 617px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#information {
+  background-color: #ffff;
+  border: 1px solid #ffaa3c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 30%;
+  height: 40%;
+  margin: 0 40% 0 40%;
+}
+#information input {
+  width: 150px;
+  padding: 4px;
+  margin: 7px 0 7px 0;
+  outline: none;
+}
+input[type='button'] {
+  background-color: #ffaa3c;
+  border: none;
+}
+input:hover {
+  cursor: pointer;
+}
+#footer {
+  text-align: center;
+  background-color: #ffaa3c;
+}
